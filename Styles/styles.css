@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217deg, 19%, 24%);
+}
+
+.advice-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: hsl(217deg, 19%, 38%);
+  border-radius: 5px;
+}
+@media (min-width: 90rem) {
+  .advice-card {
+    margin: 20rem 35rem;
+  }
+}
+
+.advice-heading {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.5rem;
+  font-family: "Manrope", sans-serif;
+  color: hsl(150deg, 100%, 66%);
+}
+@media (min-width: 90rem) {
+  .advice-heading {
+    font-size: 0.9rem;
+    font-weight: lighter;
+  }
+}
+
+.advice-container {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9rem;
+  padding: 1rem;
+  color: hsl(193deg, 38%, 86%);
+  font-weight: lighter;
+}
+@media (min-width: 90rem) {
+  .advice-container {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+}
+
+.button {
+  background-color: hsl(150deg, 100%, 66%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border-style: none;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: hsl(150deg, 100%, 82%);
+  box-shadow: 0 0 10px hsl(150deg, 100%, 82%), 0 0 10px hsl(150deg, 100%, 82%), 0 0 80px hsl(150deg, 100%, 82%);
+}/*# sourceMappingURL=styles.css.map */
